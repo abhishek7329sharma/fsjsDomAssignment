@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="js">JavaScript</p>
+    <!-- <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Js</li>
+    </ul> -->
+    <!-- <h1 id="title">Hello World, JavaScript is easy to learn</h1>
+    <ul>
+
+    </ul> -->
+    <script>
+        // document - Finding DOM
+
+        // console.log(document);
+        // console.log(window.document);
+
+        // document and window.document is same. So, we can say Window is attached globally to document. So, window is gloabl object attached to all document.
+
+        // console.log('document element', document.documentElement);
+
+        // console.log(document.body.children);
+        // console.log(document.body.firstChild);
+        // console.log(document.body.lastElementChild);
+        // console.log(document.body.firstElementChild);
+
+        // console.log(document.getElementById('js').innerHTML);
+        // console.log(document.getElementById('js').innerText);
+        // console.log(document.getElementsByClassName('tech')[0].innerText);
+        // console.log(document.getElementsByClassName('tech')[1].innerText);
+        // console.log(document.getElementsByClassName('tech')[2].innerText);
+        // console.log(document.getElementsByTagName('h1')[0].innerText);
+
+        // querySelector & querySelectorAll
+
+        // console.log(document.querySelector('h1'));
+        // console.log(document.querySelector('ul'));
+        // console.log(document.querySelectorAll('.tech'));
+        // console.log(document.querySelectorAll('#title'));
+
+        // DOM Changing
+
+        // let val = document.getElementsByClassName('tech')
+        // val[0].setAttribute('id', 'js')
+        // val[2].classList.add('abhishek')
+        // val[2].textContent = `Hello, Hitesh Sir`
+        // console.log(document);
+
+        // creating all dom from JS
+
+        // const list = `
+        // <li>One</li>
+        // <li>Two</li>
+        // <li>Three</li>
+        // `;
+        // let listElement = document.querySelector('ul')
+        // listElement.innerHTML = list
+
+
+        // let title = document.createElement('h1')
+        // title.className = 'title'
+        // title.style.fontSize = '40px'
+        // title.textContent = 'My Blog'
+        // console.log(title);
+        // document.body.appendChild(title)
+
+        // remove element from dom
+
+        // const ul = document.querySelector('ul')
+        // const lists = document.querySelectorAll('li')
+        // console.log(lists);
+        // for (const list of lists) {
+        //     ul.removeChild(list)
+        // }
+
+
+        // event listener - always take two parameter
+
+        document.addEventListener('dblclick', hello)
+        function hello() {
+            document.getElementById('js').textContent = 'HELLO ABHISHEK'
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
