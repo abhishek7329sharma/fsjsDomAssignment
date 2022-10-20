@@ -1,3 +1,13 @@
+# DOM Manupulation (Question 1-20) 
+
+## Note:
+> Solution 7: Present 
+
+> Solution 7: No Image For Solution
+
+
+<hr>
+
 # Solution 1
 ![Solution 1](./solution%201.jpg)
 
@@ -21,6 +31,7 @@
 
 # Solution 8
 ![Solution 8](./Solution%208.jpg)
+
 
 # Solution 9
 ![Solution 9](./Solution%209.jpg)
