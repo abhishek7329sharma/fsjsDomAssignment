@@ -20,10 +20,10 @@
 
 
 # Solution 8
-![Solution 8](./solution%208.jpg)
+![Solution 8](./Solution%208.jpg)
 
 # Solution 9
-![Solution 9](./solution%209.jpg)
+![Solution 9](./Solution%209.jpg)
 
 # Solution 10
 ![Solution 10](./Solution%2010.jpg)
