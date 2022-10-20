@@ -11,7 +11,7 @@
 ![Solution 4](./Solution4.jpg)
 
 # Solution 5
-![Solution 5](./solution%205.jpg)
+![Solution 5](./Solution%205.jpg)
 
 # Solution 6
 ![Solution 6](./Solution%206.jpg)
